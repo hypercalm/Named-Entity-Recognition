@@ -1,6 +1,6 @@
 # Named-Entity-Recognition
 
-#### Overview of the domain and problem statement
+## Overview of the domain and problem statement
 
 Now, let’s consider a hypothetical example of a health tech company called ‘BeHealthy’. Suppose ‘BeHealthy’ aims to connect the medical communities with millions of patients across the country.
 
@@ -16,13 +16,13 @@ But, note that it is not explicitly mentioned in the dataset about the diseases 
 
 Suppose you have been asked to determine the disease name and its probable treatment from the dataset and list it out in the form of a table or a dictionary like this.
  
-#### Key                    Value
+### Key                         Value
 
-##### Disease_1	treatment_1, treatment_2, treatment_3…
+#### Disease_1	treatment_1,     treatment_2, treatment_3…
 
-##### Disease_2	treatment_4, treatment_1, treatment_5…
+#### Disease_2	treatment_4,     treatment_1, treatment_5…
 
-##### Disease_3	treatment_3, treatment_4, treatment_7…
+#### Disease_3	treatment_3,     treatment_4, treatment_7…
 
 …	
  After discussing the problem given above, you need to build a custom NER to get the list of diseases and their treatment from the dataset.
